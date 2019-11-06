@@ -1,0 +1,42 @@
+g++ -c -pipe -fopenmp -O2 -std=gnu++1y -Wall -W -D_REENTRANT -fPIC -DLIFEOFGAME -DQ_LOOKUP_TABLE -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I. -I. -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -isystem /usr/include/libdrm -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o SamuCam.o SamuCam.cpp
+In file included from SamuCam.h:55:0,
+                 from SamuCam.cpp:52:
+/usr/include/opencv2/videoio.hpp:740:47: error: declaration of ‘operator>>’ as non-function
+     virtual VideoCapture& operator >> (CV_OUT UMat& image);
+                                               ^~~~
+/usr/include/opencv2/videoio.hpp:740:36: error: expected ‘;’ at end of member declaration
+     virtual VideoCapture& operator >> (CV_OUT UMat& image);
+                                    ^~
+/usr/include/opencv2/videoio.hpp:740:51: error: expected ‘)’ before ‘&’ token
+     virtual VideoCapture& operator >> (CV_OUT UMat& image);
+                                                   ^
+/usr/include/opencv2/videoio.hpp:928:42: error: expected initializer before ‘<’ token
+ template<> CV_EXPORTS void DefaultDeleter<CvCapture>::operator ()(CvCapture* obj) const;
+                                          ^
+/usr/include/opencv2/videoio.hpp:929:42: error: expected initializer before ‘<’ token
+ template<> CV_EXPORTS void DefaultDeleter<CvVideoWriter>::operator ()(CvVideoWriter* obj) const;
+                                          ^
+In file included from /usr/local/include/opencv2/highgui.hpp:43:0,
+                 from SamuCam.h:56,
+                 from SamuCam.cpp:52:
+/usr/local/include/opencv2/highgui/highgui.hpp:204:20: error: redefinition of ‘class cv::VideoCapture’
+ class CV_EXPORTS_W VideoCapture
+                    ^~~~~~~~~~~~
+In file included from SamuCam.h:55:0,
+                 from SamuCam.cpp:52:
+/usr/include/opencv2/videoio.hpp:596:20: note: previous definition of ‘class cv::VideoCapture’
+ class CV_EXPORTS_W VideoCapture
+                    ^~~~~~~~~~~~
+In file included from /usr/local/include/opencv2/highgui.hpp:43:0,
+                 from SamuCam.h:56,
+                 from SamuCam.cpp:52:
+/usr/local/include/opencv2/highgui/highgui.hpp:230:20: error: redefinition of ‘class cv::VideoWriter’
+ class CV_EXPORTS_W VideoWriter
+                    ^~~~~~~~~~~
+In file included from SamuCam.h:55:0,
+                 from SamuCam.cpp:52:
+/usr/include/opencv2/videoio.hpp:813:20: note: previous definition of ‘class cv::VideoWriter’
+ class CV_EXPORTS_W VideoWriter
+                    ^~~~~~~~~~~
+Makefile:428: recipe for target 'SamuCam.o' failed
+make: *** [SamuCam.o] Error 1
