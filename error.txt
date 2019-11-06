@@ -1,0 +1,721 @@
+ActivityEditor.java:52: error: package javafx.scene.control does not exist
+class FileTree extends javafx.scene.control.TreeView<java.io.File> {
+                                           ^
+ActivityEditor.java:112: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                      ^
+ActivityEditor.java:114: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                      ^
+ActivityEditor.java:116: error: package javafx.scene.control does not exist
+    public void save(javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                         ^
+ActivityEditor.java:116: error: package javafx.scene.control does not exist
+    public void save(javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                                  ^
+ActivityEditor.java:137: error: package javafx.scene.control does not exist
+    public FileTree(String cityName, boolean expanded, javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                           ^
+ActivityEditor.java:137: error: package javafx.scene.control does not exist
+    public FileTree(String cityName, boolean expanded, javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                                                                    ^
+ActivityEditor.java:54: error: package javafx.scene.control does not exist
+    class FileTreeItem extends javafx.scene.control.TreeItem<java.io.File> {
+                                                   ^
+ActivityEditor.java:58: error: package javafx.scene does not exist
+        public FileTreeItem(java.io.File file, javafx.scene.Node icon) {
+                                                           ^
+ActivityEditor.java:74: error: package javafx.collections does not exist
+        public javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> getChildren() {
+                                 ^
+ActivityEditor.java:74: error: package javafx.scene.control does not exist
+        public javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> getChildren() {
+                                                                     ^
+ActivityEditor.java:84: error: package javafx.scene.control does not exist
+                buildChildren(javafx.scene.control.TreeItem<java.io.File> treeItem) {
+                                                  ^
+ActivityEditor.java:83: error: package javafx.collections does not exist
+        private javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>>
+                                  ^
+ActivityEditor.java:83: error: package javafx.scene.control does not exist
+        private javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>>
+                                                                      ^
+ActivityEditor.java:192: error: package javafx.scene.control does not exist
+    private final class TextFieldTreeCell extends javafx.scene.control.TreeCell<java.io.File> {
+                                                                      ^
+ActivityEditor.java:194: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.TextField textField = new javafx.scene.control.TextField();
+                                          ^
+ActivityEditor.java:195: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.ContextMenu addMenu = new javafx.scene.control.ContextMenu();
+                                          ^
+ActivityEditor.java:196: error: package javafx.scene.control does not exist
+        javafx.scene.control.TextArea propsEdit;
+                            ^
+ActivityEditor.java:198: error: package javafx.scene.control does not exist
+        public TextFieldTreeCell(javafx.scene.control.TextArea propsEdit) {
+                                                     ^
+ActivityEditor.java:324: error: package javafx.scene.control does not exist
+class StringTree extends javafx.scene.control.TreeView<String> {
+                                             ^
+ActivityEditor.java:326: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image propIcon
+                                      ^
+ActivityEditor.java:329: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                      ^
+ActivityEditor.java:331: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                      ^
+ActivityEditor.java:333: error: package javafx.scene.control does not exist
+    javafx.scene.control.TextArea propsEdit;
+                        ^
+ActivityEditor.java:335: error: package javafx.scene.control does not exist
+    public StringTree(java.util.List<String> properties, boolean expanded, javafx.scene.control.TextArea propsEdit) {
+                                                                                               ^
+ActivityEditor.java:398: error: package javafx.application does not exist
+public class ActivityEditor extends javafx.application.Application {
+                                                      ^
+ActivityEditor.java:405: error: package javafx.stage does not exist
+    public void start(javafx.stage.Stage stage) {
+                                  ^
+ActivityEditor.java:66: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:73: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:78: error: cannot find symbol
+                super.getChildren().setAll(buildChildren(this));
+                ^
+  symbol:   variable super
+  location: class FileTree.FileTreeItem
+ActivityEditor.java:80: error: cannot find symbol
+            return super.getChildren();
+                   ^
+  symbol:   variable super
+  location: class FileTree.FileTreeItem
+ActivityEditor.java:91: error: package javafx.collections does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                          ^
+ActivityEditor.java:91: error: package javafx.scene.control does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                                                              ^
+ActivityEditor.java:91: error: package javafx.collections does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                                                                                                                    ^
+ActivityEditor.java:95: error: package javafx.scene.image does not exist
+                                children.add(new FileTreeItem(f, new javafx.scene.image.ImageView(actIcon)));
+                                                                                       ^
+ActivityEditor.java:97: error: package javafx.scene.image does not exist
+                                children.add(new FileTreeItem(f, new javafx.scene.image.ImageView(actpropsIcon)));
+                                                                                       ^
+ActivityEditor.java:107: error: package javafx.collections does not exist
+            return javafx.collections.FXCollections.emptyObservableList();
+                                     ^
+ActivityEditor.java:112: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                             ^
+ActivityEditor.java:112: error: cannot find symbol
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                                    ^
+  symbol:   method getClass()
+  location: class FileTree
+ActivityEditor.java:114: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                  ^
+ActivityEditor.java:114: error: cannot find symbol
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                         ^
+  symbol:   method getClass()
+  location: class FileTree
+ActivityEditor.java:139: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<java.io.File> root = new FileTreeItem(new java.io.File(cityName), new javafx.scene.image.ImageView(actIcon));
+                            ^
+ActivityEditor.java:139: error: package javafx.scene.image does not exist
+        javafx.scene.control.TreeItem<java.io.File> root = new FileTreeItem(new java.io.File(cityName), new javafx.scene.image.ImageView(actIcon));
+                                                                                                                              ^
+ActivityEditor.java:143: error: cannot find symbol
+        setCellFactory((javafx.scene.control.TreeView<java.io.File> p) -> new TextFieldTreeCell(propsEdit));
+        ^
+  symbol:   method setCellFactory((javafx.sc[...]Edit))
+  location: class FileTree
+ActivityEditor.java:143: error: package javafx.scene.control does not exist
+        setCellFactory((javafx.scene.control.TreeView<java.io.File> p) -> new TextFieldTreeCell(propsEdit));
+                                            ^
+ActivityEditor.java:145: error: cannot find symbol
+        setOnMouseClicked((javafx.scene.input.MouseEvent evt) -> {
+        ^
+  symbol:   method setOnMouseClicked((javafx.sc[...]} } })
+  location: class FileTree
+ActivityEditor.java:145: error: package javafx.scene.input does not exist
+        setOnMouseClicked((javafx.scene.input.MouseEvent evt) -> {
+                                             ^
+ActivityEditor.java:149: error: package javafx.scene.control does not exist
+                javafx.scene.control.TreeItem<java.io.File> item = getSelectionModel().getSelectedItem();
+                                    ^
+ActivityEditor.java:149: error: cannot find symbol
+                javafx.scene.control.TreeItem<java.io.File> item = getSelectionModel().getSelectedItem();
+                                                                   ^
+  symbol:   method getSelectionModel()
+  location: class FileTree
+ActivityEditor.java:194: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.TextField textField = new javafx.scene.control.TextField();
+                                                                                         ^
+ActivityEditor.java:195: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.ContextMenu addMenu = new javafx.scene.control.ContextMenu();
+                                                                                         ^
+ActivityEditor.java:200: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem subaMenuItem = new javafx.scene.control.MenuItem("Új altevékenység");//"New subactivity");
+                                ^
+ActivityEditor.java:200: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem subaMenuItem = new javafx.scene.control.MenuItem("Új altevékenység");//"New subactivity");
+                                                                                 ^
+ActivityEditor.java:202: error: package javafx.event does not exist
+            subaMenuItem.setOnAction((javafx.event.ActionEvent evt) -> {
+                                                  ^
+ActivityEditor.java:203: error: cannot find symbol
+                java.io.File file = getTreeItem().getValue();
+                                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:208: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<java.io.File> newAct
+                                        ^
+ActivityEditor.java:210: error: package javafx.scene.image does not exist
+                           = new FileTreeItem(f, new javafx.scene.image.ImageView(actIcon));                            
+                                                                       ^
+ActivityEditor.java:211: error: cannot find symbol
+                    getTreeItem().getChildren().add(newAct);
+                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:219: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem propsMenuItem = new javafx.scene.control.MenuItem("Új altevékenység tulajdonságok");
+                                ^
+ActivityEditor.java:219: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem propsMenuItem = new javafx.scene.control.MenuItem("Új altevékenység tulajdonságok");
+                                                                                  ^
+ActivityEditor.java:221: error: package javafx.event does not exist
+            propsMenuItem.setOnAction((javafx.event.ActionEvent evt) -> {
+                                                   ^
+ActivityEditor.java:222: error: cannot find symbol
+                java.io.File file = getTreeItem().getValue();
+                                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:234: error: package javafx.scene.control does not exist
+                javafx.scene.control.TreeItem<java.io.File> newProps
+                                    ^
+ActivityEditor.java:236: error: package javafx.scene.image does not exist
+                        = new FileTreeItem(f, new javafx.scene.image.ImageView(actpropsIcon));
+                                                                    ^
+ActivityEditor.java:237: error: cannot find symbol
+                getTreeItem().getChildren().add(newProps);
+                ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:242: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:245: error: cannot find symbol
+            super.startEdit();
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:249: error: cannot find symbol
+            setText(null);
+            ^
+  symbol:   method setText(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:254: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:257: error: cannot find symbol
+            super.cancelEdit();
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:259: error: cannot find symbol
+            setText((String) getItem().getPath());
+                             ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:259: error: cannot find symbol
+            setText((String) getItem().getPath());
+            ^
+  symbol:   method setText(String)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:260: error: cannot find symbol
+            setGraphic(getTreeItem().getGraphic());
+                       ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCellActivityEditor.java:52: error: package javafx.scene.control does not exist
+class FileTree extends javafx.scene.control.TreeView<java.io.File> {
+                                           ^
+ActivityEditor.java:112: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                      ^
+ActivityEditor.java:114: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                      ^
+ActivityEditor.java:116: error: package javafx.scene.control does not exist
+    public void save(javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                         ^
+ActivityEditor.java:116: error: package javafx.scene.control does not exist
+    public void save(javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                                  ^
+ActivityEditor.java:137: error: package javafx.scene.control does not exist
+    public FileTree(String cityName, boolean expanded, javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                           ^
+ActivityEditor.java:137: error: package javafx.scene.control does not exist
+    public FileTree(String cityName, boolean expanded, javafx.scene.control.TextArea propsEdit, javafx.scene.control.Label actPropsLabel) {
+                                                                                                                    ^
+ActivityEditor.java:54: error: package javafx.scene.control does not exist
+    class FileTreeItem extends javafx.scene.control.TreeItem<java.io.File> {
+                                                   ^
+ActivityEditor.java:58: error: package javafx.scene does not exist
+        public FileTreeItem(java.io.File file, javafx.scene.Node icon) {
+                                                           ^
+ActivityEditor.java:74: error: package javafx.collections does not exist
+        public javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> getChildren() {
+                                 ^
+ActivityEditor.java:74: error: package javafx.scene.control does not exist
+        public javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> getChildren() {
+                                                                     ^
+ActivityEditor.java:84: error: package javafx.scene.control does not exist
+                buildChildren(javafx.scene.control.TreeItem<java.io.File> treeItem) {
+                                                  ^
+ActivityEditor.java:83: error: package javafx.collections does not exist
+        private javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>>
+                                  ^
+ActivityEditor.java:83: error: package javafx.scene.control does not exist
+        private javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>>
+                                                                      ^
+ActivityEditor.java:192: error: package javafx.scene.control does not exist
+    private final class TextFieldTreeCell extends javafx.scene.control.TreeCell<java.io.File> {
+                                                                      ^
+ActivityEditor.java:194: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.TextField textField = new javafx.scene.control.TextField();
+                                          ^
+ActivityEditor.java:195: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.ContextMenu addMenu = new javafx.scene.control.ContextMenu();
+                                          ^
+ActivityEditor.java:196: error: package javafx.scene.control does not exist
+        javafx.scene.control.TextArea propsEdit;
+                            ^
+ActivityEditor.java:198: error: package javafx.scene.control does not exist
+        public TextFieldTreeCell(javafx.scene.control.TextArea propsEdit) {
+                                                     ^
+ActivityEditor.java:324: error: package javafx.scene.control does not exist
+class StringTree extends javafx.scene.control.TreeView<String> {
+                                             ^
+ActivityEditor.java:326: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image propIcon
+                                      ^
+ActivityEditor.java:329: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                      ^
+ActivityEditor.java:331: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                      ^
+ActivityEditor.java:333: error: package javafx.scene.control does not exist
+    javafx.scene.control.TextArea propsEdit;
+                        ^
+ActivityEditor.java:335: error: package javafx.scene.control does not exist
+    public StringTree(java.util.List<String> properties, boolean expanded, javafx.scene.control.TextArea propsEdit) {
+                                                                                               ^
+ActivityEditor.java:398: error: package javafx.application does not exist
+public class ActivityEditor extends javafx.application.Application {
+                                                      ^
+ActivityEditor.java:405: error: package javafx.stage does not exist
+    public void start(javafx.stage.Stage stage) {
+                                  ^
+ActivityEditor.java:66: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:73: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:78: error: cannot find symbol
+                super.getChildren().setAll(buildChildren(this));
+                ^
+  symbol:   variable super
+  location: class FileTree.FileTreeItem
+ActivityEditor.java:80: error: cannot find symbol
+            return super.getChildren();
+                   ^
+  symbol:   variable super
+  location: class FileTree.FileTreeItem
+ActivityEditor.java:91: error: package javafx.collections does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                          ^
+ActivityEditor.java:91: error: package javafx.scene.control does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                                                              ^
+ActivityEditor.java:91: error: package javafx.collections does not exist
+                        javafx.collections.ObservableList<javafx.scene.control.TreeItem<java.io.File>> children = javafx.collections.FXCollections.observableArrayList();
+                                                                                                                                    ^
+ActivityEditor.java:95: error: package javafx.scene.image does not exist
+                                children.add(new FileTreeItem(f, new javafx.scene.image.ImageView(actIcon)));
+                                                                                       ^
+ActivityEditor.java:97: error: package javafx.scene.image does not exist
+                                children.add(new FileTreeItem(f, new javafx.scene.image.ImageView(actpropsIcon)));
+                                                                                       ^
+ActivityEditor.java:107: error: package javafx.collections does not exist
+            return javafx.collections.FXCollections.emptyObservableList();
+                                     ^
+ActivityEditor.java:112: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                             ^
+ActivityEditor.java:112: error: cannot find symbol
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                                    ^
+  symbol:   method getClass()
+  location: class FileTree
+ActivityEditor.java:114: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                  ^
+ActivityEditor.java:114: error: cannot find symbol
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                         ^
+  symbol:   method getClass()
+  location: class FileTree
+ActivityEditor.java:139: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<java.io.File> root = new FileTreeItem(new java.io.File(cityName), new javafx.scene.image.ImageView(actIcon));
+                            ^
+ActivityEditor.java:139: error: package javafx.scene.image does not exist
+        javafx.scene.control.TreeItem<java.io.File> root = new FileTreeItem(new java.io.File(cityName), new javafx.scene.image.ImageView(actIcon));
+                                                                                                                              ^
+ActivityEditor.java:143: error: cannot find symbol
+        setCellFactory((javafx.scene.control.TreeView<java.io.File> p) -> new TextFieldTreeCell(propsEdit));
+        ^
+  symbol:   method setCellFactory((javafx.sc[...]Edit))
+  location: class FileTree
+ActivityEditor.java:143: error: package javafx.scene.control does not exist
+        setCellFactory((javafx.scene.control.TreeView<java.io.File> p) -> new TextFieldTreeCell(propsEdit));
+                                            ^
+ActivityEditor.java:145: error: cannot find symbol
+        setOnMouseClicked((javafx.scene.input.MouseEvent evt) -> {
+        ^
+  symbol:   method setOnMouseClicked((javafx.sc[...]} } })
+  location: class FileTree
+ActivityEditor.java:145: error: package javafx.scene.input does not exist
+        setOnMouseClicked((javafx.scene.input.MouseEvent evt) -> {
+                                             ^
+ActivityEditor.java:149: error: package javafx.scene.control does not exist
+                javafx.scene.control.TreeItem<java.io.File> item = getSelectionModel().getSelectedItem();
+                                    ^
+ActivityEditor.java:149: error: cannot find symbol
+                javafx.scene.control.TreeItem<java.io.File> item = getSelectionModel().getSelectedItem();
+                                                                   ^
+  symbol:   method getSelectionModel()
+  location: class FileTree
+ActivityEditor.java:194: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.TextField textField = new javafx.scene.control.TextField();
+                                                                                         ^
+ActivityEditor.java:195: error: package javafx.scene.control does not exist
+        private final javafx.scene.control.ContextMenu addMenu = new javafx.scene.control.ContextMenu();
+                                                                                         ^
+ActivityEditor.java:200: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem subaMenuItem = new javafx.scene.control.MenuItem("Új altevékenység");//"New subactivity");
+                                ^
+ActivityEditor.java:200: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem subaMenuItem = new javafx.scene.control.MenuItem("Új altevékenység");//"New subactivity");
+                                                                                 ^
+ActivityEditor.java:202: error: package javafx.event does not exist
+            subaMenuItem.setOnAction((javafx.event.ActionEvent evt) -> {
+                                                  ^
+ActivityEditor.java:203: error: cannot find symbol
+                java.io.File file = getTreeItem().getValue();
+                                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:208: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<java.io.File> newAct
+                                        ^
+ActivityEditor.java:210: error: package javafx.scene.image does not exist
+                           = new FileTreeItem(f, new javafx.scene.image.ImageView(actIcon));                            
+                                                                       ^
+ActivityEditor.java:211: error: cannot find symbol
+                    getTreeItem().getChildren().add(newAct);
+                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:219: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem propsMenuItem = new javafx.scene.control.MenuItem("Új altevékenység tulajdonságok");
+                                ^
+ActivityEditor.java:219: error: package javafx.scene.control does not exist
+            javafx.scene.control.MenuItem propsMenuItem = new javafx.scene.control.MenuItem("Új altevékenység tulajdonságok");
+                                                                                  ^
+ActivityEditor.java:221: error: package javafx.event does not exist
+            propsMenuItem.setOnAction((javafx.event.ActionEvent evt) -> {
+                                                   ^
+ActivityEditor.java:222: error: cannot find symbol
+                java.io.File file = getTreeItem().getValue();
+                                    ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:234: error: package javafx.scene.control does not exist
+                javafx.scene.control.TreeItem<java.io.File> newProps
+                                    ^
+ActivityEditor.java:236: error: package javafx.scene.image does not exist
+                        = new FileTreeItem(f, new javafx.scene.image.ImageView(actpropsIcon));
+                                                                    ^
+ActivityEditor.java:237: error: cannot find symbol
+                getTreeItem().getChildren().add(newProps);
+                ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:242: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:245: error: cannot find symbol
+            super.startEdit();
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:249: error: cannot find symbol
+            setText(null);
+            ^
+  symbol:   method setText(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:254: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:257: error: cannot find symbol
+            super.cancelEdit();
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:259: error: cannot find symbol
+            setText((String) getItem().getPath());
+                             ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:259: error: cannot find symbol
+            setText((String) getItem().getPath());
+            ^
+  symbol:   method setText(String)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:260: error: cannot find symbol
+            setGraphic(getTreeItem().getGraphic());
+                       ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:263: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:266: error: cannot find symbol
+            super.updateItem(item, empty);
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:270: error: cannot find symbol
+                setText(null);
+                ^
+  symbol:   method setText(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:271: error: cannot find symbol
+                setGraphic(null);
+                ^
+  symbol:   method setGraphic(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:275: error: cannot find symbol
+                setText(getItem().toString());
+                        ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:276: error: cannot find symbol
+                setGraphic(getTreeItem().getGraphic());
+                           ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:278: error: cannot find symbol
+                if (!getTreeItem().isLeaf()) {
+                     ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:287: error: cannot find symbol
+            if (getItem() == null) {
+                ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:291: error: cannot find symbol
+            String oldText = getItem().toString();
+                             ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:294: error: package javafx.scene.input does not exist
+            textField.setOnKeyReleased((javafx.scene.input.KeyEvent t) -> {
+                                                          ^
+ActivityEditor.java:295: error: package javafx.scene.input does not exist
+                if (t.getCode() == javafx.scene.input.KeyCode.ENTER) {
+                                                     ^
+ActivityEditor.java:313: error: cannot find symbol
+                    commitEdit(newf);
+                    ^
+  symbol:   method commitEdit(File)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:327: error: package javafx.scene.image does not exist
+            = new javafx.scene.image.Image(getClass().getResourceAsStream("props.png"));
+                                    ^
+ActivityEditor.java:327: error: cannot find symbol
+            = new javafx.scene.image.Image(getClass().getResourceAsStream("props.png"));
+                                           ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:329: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                             ^
+ActivityEditor.java:329: error: cannot find symbol
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                                    ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:331: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                  ^
+ActivityEditor.java:331: error: cannot find symbol
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                         ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:341: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                            ^
+ActivityEditor.java:341: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                                                                             ^
+ActivityEditor.java:341: error: package javafx.scene.image does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                                                                                                                                  ^
+ActivityEditor.java:347: error: package javafx.scene.control does not exist
+            javafx.scene.control.TreeItem<String> where = root;
+                                ^
+ActivityEditor.java:364: error: package javafx.scene.control does not exist
+                for (javafx.scene.control.TreeItem<String> actNode : where.getChildren()) {
+                                         ^
+ActivityEditor.java:372: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                        ^
+ActivityEditor.java:372: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                                                                            ^
+ActivityEditor.java:372: error: package javafx.scene.image does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                                                                                                                       ^
+ActivityEditor.java:382: error: cannot find symbol
+        setOnMouseClicked((javafx.scene.input.MouseEvent mouseEvent) -> {
+        ^
+  symbol:   method setOnMouseClicked((javafx.sc[...]} } })
+  location: class StringTree
+100 errors
+ActivityEditor.java:263: error: method does not override or implement a method from a supertype
+        @Override
+        ^
+ActivityEditor.java:266: error: cannot find symbol
+            super.updateItem(item, empty);
+            ^
+  symbol:   variable super
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:270: error: cannot find symbol
+                setText(null);
+                ^
+  symbol:   method setText(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:271: error: cannot find symbol
+                setGraphic(null);
+                ^
+  symbol:   method setGraphic(<null>)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:275: error: cannot find symbol
+                setText(getItem().toString());
+                        ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:276: error: cannot find symbol
+                setGraphic(getTreeItem().getGraphic());
+                           ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:278: error: cannot find symbol
+                if (!getTreeItem().isLeaf()) {
+                     ^
+  symbol:   method getTreeItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:287: error: cannot find symbol
+            if (getItem() == null) {
+                ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:291: error: cannot find symbol
+            String oldText = getItem().toString();
+                             ^
+  symbol:   method getItem()
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:294: error: package javafx.scene.input does not exist
+            textField.setOnKeyReleased((javafx.scene.input.KeyEvent t) -> {
+                                                          ^
+ActivityEditor.java:295: error: package javafx.scene.input does not exist
+                if (t.getCode() == javafx.scene.input.KeyCode.ENTER) {
+                                                     ^
+ActivityEditor.java:313: error: cannot find symbol
+                    commitEdit(newf);
+                    ^
+  symbol:   method commitEdit(File)
+  location: class FileTree.TextFieldTreeCell
+ActivityEditor.java:327: error: package javafx.scene.image does not exist
+            = new javafx.scene.image.Image(getClass().getResourceAsStream("props.png"));
+                                    ^
+ActivityEditor.java:327: error: cannot find symbol
+            = new javafx.scene.image.Image(getClass().getResourceAsStream("props.png"));
+                                           ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:329: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                             ^
+ActivityEditor.java:329: error: cannot find symbol
+    protected final javafx.scene.image.Image actIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activity.png"));
+                                                                                    ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:331: error: package javafx.scene.image does not exist
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                  ^
+ActivityEditor.java:331: error: cannot find symbol
+    protected final javafx.scene.image.Image actpropsIcon = new javafx.scene.image.Image(getClass().getResourceAsStream("activityprops.png"));
+                                                                                         ^
+  symbol:   method getClass()
+  location: class StringTree
+ActivityEditor.java:341: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                            ^
+ActivityEditor.java:341: error: package javafx.scene.control does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                                                                             ^
+ActivityEditor.java:341: error: package javafx.scene.image does not exist
+        javafx.scene.control.TreeItem<String> root = new javafx.scene.control.TreeItem<String>("Én, magam", new javafx.scene.image.ImageView(propIcon));
+                                                                                                                                  ^
+ActivityEditor.java:347: error: package javafx.scene.control does not exist
+            javafx.scene.control.TreeItem<String> where = root;
+                                ^
+ActivityEditor.java:364: error: package javafx.scene.control does not exist
+                for (javafx.scene.control.TreeItem<String> actNode : where.getChildren()) {
+                                         ^
+ActivityEditor.java:372: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                        ^
+ActivityEditor.java:372: error: package javafx.scene.control does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                                                                            ^
+ActivityEditor.java:372: error: package javafx.scene.image does not exist
+                    javafx.scene.control.TreeItem<String> actNode = new javafx.scene.control.TreeItem<String>(t, new javafx.scene.image.ImageView(propIcon));
+                                                                                                                                       ^
+ActivityEditor.java:382: error: cannot find symbol
+        setOnMouseClicked((javafx.scene.input.MouseEvent mouseEvent) -> {
+        ^
+  symbol:   method setOnMouseClicked((javafx.sc[...]} } })
+  location: class StringTree
+100 errors
